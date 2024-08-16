@@ -1,1 +1,1 @@
-# Finding-Helping-Maid
+The purpose of this project is to develop a platform that connects homeowners with qualified housekeepers online. The platform will allow homeowners to easily find and hire reliable housekeepers who meet their specific needs and requirements.
