@@ -1,0 +1,853 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+nav {
+    background-color: #C70039;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+  }
+  nav p{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    border-radius: 50%;
+    height: 50px;
+    width: 60px;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .Hover:hover{
+      border: none;
+      padding: 10px 20px;
+      border-bottom: 3px solid #900C3F ;
+  }
+  .active{
+    background-color: #900C3F;
+    padding: 10px 20px;
+    border-radius:20px ;
+}
+  .login-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .login-btn {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .hero {
+    background-image: url('images/cleaning.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10%;
+    box-sizing: border-box;
+  }
+  
+  .hero-content {
+    text-align: left;
+  }
+  
+  .slogan {
+    font-size: 50px;
+    font-weight: bold;
+    color: #900C3F;
+    margin-bottom: 40px;
+  }
+  
+  .hire-btn {
+    background-color: #C70039;
+    color: #fff;
+    border: none;
+    padding: 20px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hire-btn:hover {
+    background-color: #B80034;
+  }
+
+
+
+  .choose-us {
+    background-color: #EEC8C8;
+    color: #C70039;
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .section-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .choose-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  .choose-us-box {
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .round-image {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 30px;
+  }
+  .safe{
+        width: 220px;
+        height: 250px;
+        object-fit: cover;
+        margin-bottom: 30px;
+  }
+  
+  .box-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .box-paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 0;
+  }
+  
+  .top-helpers {
+    background-color: #C70039;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .section-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    width: 300px;
+    height: 400px;
+    margin: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+  }
+  
+  .card-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0 10px;
+    color: #C70039;
+  }
+  
+  .card-paragraph {
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #C70039;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+    padding: 50px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section:last-child {
+    margin-right: 0;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .follow{
+    margin-left: 100px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .social-icons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .about-us-section{
+    background-color: black;
+    height: auto;
+    width: auto;
+    color: #fff;
+    padding: 80px;
+    font-family: Arial, sans-serif;
+  }
+ 
+  
+
+  
+
+  
+  @media only screen and (max-width: 768px) {
+    .slogan {
+      font-size: 30px;
+    }
+    
+    .hire-btn {
+      font-size: 16px;
+      padding: 15px 25px;
+    }
+    
+    .hero {
+      justify-content: center;
+      padding-left: 0;
+    }
+    
+    .hero-content {
+      text-align: center;
+    }
+    .choose-us-container {
+        flex-wrap: wrap;
+      }
+      
+      .choose-us-box {
+        width: 100%;
+        margin-bottom: 40px;
+      }
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .card {
+        margin: 30px 0;
+      }
+  }
+  
+  .main-section {
+    background-image: url('images/cleaning.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .intro-text {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    margin-right: 100px;
+  }
+  
+  .intro-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #C70039;
+    margin-bottom: 20px;
+  }
+  
+  .intro-text img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 20px 0;
+  }
+  
+  .intro-text p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #C70039;
+    margin-bottom: 20px;
+  }
+  
+  .button-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .customer-btn, .helper-btn {
+    padding: 1rem;
+  background-color: #C70039;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  }
+  .customer-btn:hover,
+.helper-btn:hover {
+  background-color: #EEC8C8;
+  color: #C70039;
+}
+
+  
+.signup-page {
+  background-color: #900C3F;
+  padding: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="file"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+button[type="submit"] {
+  background-color: #C70039;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.header img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+
+.login-page {
+  background-color: #900C3F;
+  padding: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="password"],
+textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+textarea {
+  height: 100px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+label[for^="homeCleaning"]::before,
+label[for^="officeCleaning"]::before,
+label[for^="laundryService"]::before,
+label[for^="cooking"]::before,
+label[for^="greenCleaning"]::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label::before {
+  background-color: #fff;
+}
+
+button[type="submit"] {
+  background-color: #C70039;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.login-page {
+  position: relative;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('images/loginCustomer.jpg');
+  background-size: cover;
+  opacity: 0.6;
+  z-index: 0;
+}
+
+.login-form {
+  position: relative;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.login-form h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+button[type="submit"] {
+  background-color: #900C3F;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #C70039;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+.categories-section {
+  background-color: #900C3F;
+  padding: 40px;
+  color: #fff;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category {
+  flex-basis: 30%;
+}
+
+.category h3 {
+  margin-bottom: 10px;
+}
+
+.category input[type="radio"],
+.category input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.helper-cards-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.helper-cards-heading {
+  color: #C70039;
+  margin-bottom: 20px;
+}
+
+.helper-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.helper-card{
+  background-color: #C70039;
+  border-radius: 20px;
+}
+
+.helper-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.helper-name {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.helper-salary {
+  color: #fff;
+  margin-top: 5px;
+}
+ button[type="submit"]{
+  background-color: #C70039;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+
+
+
+  @media only screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+    }
+  
+    .logo-container {
+      margin-bottom: 20px;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+    }
+    .slogan {
+        font-size: 30px;
+      }
+      
+      .hire-btn {
+        font-size: 16px;
+        padding: 15px 25px;
+      }
+
+      .signup-page {
+        padding: 20px;
+      }
+    
+      .signup-form {
+        margin-top: 20px;
+      }
+    
+      label, input[type="text"],
+      input[type="email"],
+      input[type="tel"],
+      input[type="password"],
+      input[type="file"],
+      button[type="submit"] {
+        width: 100%;
+      }
+      .login-form {
+        padding: 20px;
+      }
+      
+      .login-form h1 {
+        font-size: 20px;
+      }
+      
+      input[type="text"],
+      input[type="password"] {
+        margin-bottom: 10px;
+      }
+      
+      button[type="submit"] {
+        padding: 8px 16px;
+      }
+      .navbar {
+        flex-wrap: wrap;
+      }
+    
+      .logo {
+        margin-bottom: 10px;
+      }
+    
+      .nav-links {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+      }
+    
+      .login-btn {
+        margin-top: 10px;
+        width: 100%;
+      }
+    
+      .categories-section {
+        padding: 20px;
+      }
+    
+      .categories {
+        flex-direction: column;
+      }
+    
+      .category {
+        margin-bottom: 20px;
+      }
+    
+      .helper-cards {
+        grid-template-columns: repeat(1, 1fr);
+      }
+  }
+  
+
+
+  /* Apply general styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #fff;
+}
+
+
+
+.login-form input,
+.login-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #C70039;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.services {
+  margin-bottom: 10px;
+}
+
+.services input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.services label {
+  margin-right: 10px;
+  color: #fff;
+}
+.gender-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.gender-label input[type="radio"] {
+  margin-right: 5px;
+}
+
+.gender-label span {
+  font-weight: bold;
+}
+
